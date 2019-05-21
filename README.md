@@ -7,6 +7,7 @@ Text Encryption and Decryption with 4 algorithms
 
 > This project was made for Security subject, and available only for educational purposes  
 
+> Note: Caesar key is only numbers..
 
 ### Screenshot
 ![Screenshot](https://raw.githubusercontent.com/Mhmod-Hsn/encryption-decryption/master/screenshot.jpg)
