@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5baa1419-8bdb-48dd-8c85-6dac07ee578d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../security/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../security/script.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="270" column="90" selection-start-line="270" selection-start-column="90" selection-end-line="270" selection-end-column="90" />
+              <folding>
+                <element signature="e#411#4172#0" />
+                <element signature="n#!!block;n#caesarEncryption#0" />
+                <element signature="n#!!block;n#caesarDecryption#0" />
+                <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+                <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+                <element signature="n#!!block;n#playfairEncryption#0" />
+                <element signature="n#!!block;n#vigenereEncryption#0" />
+                <element signature="n#!!block;n#vigenereDecryption#0" />
+                <element signature="n#!!block;n#isLetter#0" />
+                <element signature="n#!!block;n#array2d#0" />
+                <element signature="n#!!block;n#getCol#0" />
+                <element signature="n#!!block;n#longarray#0" />
+                <element signature="n#!!block;n#checkExistance#0" />
+                <element signature="n#!!block;n#checkPositionEnc#0" />
+                <element signature="n#!!block;n#checkPositionDec#0" />
+                <element signature="n#!!block;n#insert#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>progre</find>
+      <find>t</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script.php" />
+        <option value="$PROJECT_DIR$/../security/script.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="752" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="security final project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5baa1419-8bdb-48dd-8c85-6dac07ee578d" name="Default" comment="" />
+      <created>1524777376482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524777376482</updated>
+      <workItem from="1524777378037" duration="16910000" />
+      <workItem from="1524869008488" duration="2919000" />
+      <workItem from="1524880084993" duration="15894000" />
+      <workItem from="1524900860739" duration="1338000" />
+      <workItem from="1525047726442" duration="3738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40799000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="270" column="90" selection-start-line="270" selection-start-column="90" selection-end-line="270" selection-end-column="90" />
+          <folding>
+            <element signature="e#411#4172#0" />
+            <element signature="n#!!block;n#caesarEncryption#0" />
+            <element signature="n#!!block;n#caesarDecryption#0" />
+            <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+            <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+            <element signature="n#!!block;n#playfairEncryption#0" />
+            <element signature="n#!!block;n#vigenereEncryption#0" />
+            <element signature="n#!!block;n#vigenereDecryption#0" />
+            <element signature="n#!!block;n#isLetter#0" />
+            <element signature="n#!!block;n#array2d#0" />
+            <element signature="n#!!block;n#getCol#0" />
+            <element signature="n#!!block;n#longarray#0" />
+            <element signature="n#!!block;n#checkExistance#0" />
+            <element signature="n#!!block;n#checkPositionEnc#0" />
+            <element signature="n#!!block;n#checkPositionDec#0" />
+            <element signature="n#!!block;n#insert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="272" column="55" selection-start-line="272" selection-start-column="55" selection-end-line="272" selection-end-column="55" />
+          <folding>
+            <element signature="e#411#4172#0" />
+            <element signature="n#!!block;n#caesarEncryption#0" />
+            <element signature="n#!!block;n#caesarDecryption#0" />
+            <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+            <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+            <element signature="n#!!block;n#playfairEncryption#0" />
+            <element signature="n#!!block;n#vigenereEncryption#0" />
+            <element signature="n#!!block;n#vigenereDecryption#0" />
+            <element signature="n#!!block;n#isLetter#0" />
+            <element signature="n#!!block;n#array2d#0" />
+            <element signature="n#!!block;n#getCol#0" />
+            <element signature="n#!!block;n#longarray#0" />
+            <element signature="n#!!block;n#checkExistance#0" />
+            <element signature="n#!!block;n#checkPositionEnc#0" />
+            <element signature="n#!!block;n#checkPositionDec#0" />
+            <element signature="n#!!block;n#insert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="115" selection-start-line="110" selection-start-column="115" selection-end-line="110" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+          <folding>
+            <element signature="e#411#4172#0" />
+            <element signature="n#!!block;n#caesarEncryption#0" />
+            <element signature="n#!!block;n#caesarDecryption#0" />
+            <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+            <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+            <element signature="n#!!block;n#playfairEncryption#0" />
+            <element signature="n#!!block;n#vigenereEncryption#0" />
+            <element signature="n#!!block;n#vigenereDecryption#0" />
+            <element signature="n#!!block;n#isLetter#0" />
+            <element signature="n#!!block;n#array2d#0" />
+            <element signature="n#!!block;n#getCol#0" />
+            <element signature="n#!!block;n#longarray#0" />
+            <element signature="n#!!block;n#checkExistance#0" />
+            <element signature="n#!!block;n#checkPositionEnc#0" />
+            <element signature="n#!!block;n#checkPositionDec#0" />
+            <element signature="n#!!block;n#insert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="157" selection-start-line="54" selection-start-column="157" selection-end-line="54" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="e#411#4172#0" />
+            <element signature="n#!!block;n#caesarEncryption#0" />
+            <element signature="n#!!block;n#caesarDecryption#0" />
+            <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+            <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+            <element signature="n#!!block;n#playfairEncryption#0" />
+            <element signature="n#!!block;n#vigenereEncryption#0" />
+            <element signature="n#!!block;n#vigenereDecryption#0" />
+            <element signature="n#!!block;n#isLetter#0" />
+            <element signature="n#!!block;n#array2d#0" />
+            <element signature="n#!!block;n#getCol#0" />
+            <element signature="n#!!block;n#longarray#0" />
+            <element signature="n#!!block;n#checkExistance#0" />
+            <element signature="n#!!block;n#checkPositionEnc#0" />
+            <element signature="n#!!block;n#checkPositionDec#0" />
+            <element signature="n#!!block;n#insert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="327" column="4" selection-start-line="327" selection-start-column="4" selection-end-line="327" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="270" column="90" selection-start-line="270" selection-start-column="90" selection-end-line="270" selection-end-column="90" />
+          <folding>
+            <element signature="e#411#4172#0" />
+            <element signature="n#!!block;n#caesarEncryption#0" />
+            <element signature="n#!!block;n#caesarDecryption#0" />
+            <element signature="n#!!block;n#rowtranspositionEncryption#0" />
+            <element signature="n#!!block;n#rowtranspositionDecryption#0" />
+            <element signature="n#!!block;n#playfairEncryption#0" />
+            <element signature="n#!!block;n#vigenereEncryption#0" />
+            <element signature="n#!!block;n#vigenereDecryption#0" />
+            <element signature="n#!!block;n#isLetter#0" />
+            <element signature="n#!!block;n#array2d#0" />
+            <element signature="n#!!block;n#getCol#0" />
+            <element signature="n#!!block;n#longarray#0" />
+            <element signature="n#!!block;n#checkExistance#0" />
+            <element signature="n#!!block;n#checkPositionEnc#0" />
+            <element signature="n#!!block;n#checkPositionDec#0" />
+            <element signature="n#!!block;n#insert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../security/script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

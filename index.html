@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text Encryption , Decryption</title>
+    <style>
+        textarea {
+            max-height: 200px;
+            min-height: 70px;
+        }
+
+
+        @keyframes blink {
+            0% {
+                box-shadow: 0 0 40px #ff3c5c;
+            }
+            50% {
+                box-shadow: 0 0 0;
+            }
+            100% {
+                box-shadow: 0 0 40px #ff3c5c;
+            }
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                box-shadow: 0 0 40px #ff3c5c;
+            }
+            50% {
+                box-shadow: 0 0 0;
+            }
+            100% {
+                box-shadow: 0 0 40px #ff3c5c;
+            }
+        }
+
+        .blink {
+            -webkit-animation: blink 3.0s linear infinite;
+            animation: blink 3.0s linear infinite;
+        }
+
+        label{
+            color: #aaa
+        }
+    </style>
+    <link href="css/bootstrap4-neon-glow.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div>
+        <div class="col-sm-8 offset-2 mt-5">
+            <div>
+
+            </div>
+
+            <div class="ht-tm-codeblock">
+                <div class="ht-tm-element card border-primary mb-3 text-center">
+                    <span class="ht-tm-element hal-9000 blink d-block mx-auto mt-4"></span>
+                    this project was made by: <a href="https://www.facebook.com/Mhmod.Hsn55">Mahmoud Hassan</a> and available only for educational purposes
+
+                    <div class="card-body">
+                        <div class="container" style="color: #123313">
+                            <form method="post" action="script.php">
+                                <!--input text-->
+                                <div class="form-group row">
+                                    <label for="input_text" class="col-sm-2 col-form-label">Text</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="input_text" placeholder="enter input text" rows="3" AUTOCOMPLETE="off" name="input_text">balloon</textarea>
+                                    </div>
+                                </div>
+
+                                <!--input type-->
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Type</label>
+                                    <div class="col-sm-10">
+                                        <div class="btn-group btn-group-toggle input-type" data-toggle="buttons">
+                                            <label class="btn btn-outline-primary active">
+                                                <input type="radio" name="input-type" id="input-type-encryption" checked> Encryption
+                                            </label>
+
+                                            <label class="btn btn-outline-primary">
+                                                <input type="radio" name="input-type" id="input-type-decryption"> Decryption
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <!--used algorithm-->
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Algorithm</label>
+                                    <div class="col-sm-10">
+                                        <div class="btn-group btn-group-toggle input-type" data-toggle="buttons">
+                                            <label class="btn btn-outline-primary active">
+                                                <input type="radio" name="algorithm" id="caesar" checked="checked"> caesar
+                                            </label>
+
+
+                                            <label class="btn btn-outline-primary">
+                                                <input type="radio" name="algorithm" id="playfair"> playfair
+                                            </label>
+
+
+                                            <label class="btn btn-outline-primary">
+                                                <input type="radio" name="algorithm" id="rowtransposition"> Row Transposition
+                                            </label>
+
+
+                                            <label class="btn btn-outline-primary">
+                                                <input type="radio" name="algorithm" id="vigenere"> vigenere
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!--key-->
+                                <div class="form-group row key-container">
+                                    <label class="col-sm-2 col-form-label">Key</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="key" placeholder="Key" value="monarchy" AUTOCOMPLETE="off" name="used_key">
+                                    </div>
+                                </div>
+
+                                <!--result-->
+                                <div class="form-group row">
+                                    <label for="input_text" class="col-sm-2 col-form-label">Result</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="result_text" placeholder="results will be shown here" rows="3" AUTOCOMPLETE="off" name="result_text"
+                                            disabled></textarea>
+                                    </div>
+                                </div>
+
+
+                                <!--Buttons-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <button type="reset" id="reset-btn" class="btn btn-outline-primary btn-block">reset</button>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button type="button" id="get-result-btn" class="btn btn-primary btn-block">Get Result</button>
+                                        <button type="submit" class="btn btn-primary btn-block">send to DB</button>
+
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--   input-->
+
+
+
+        <!--  results-->
+
+
+
+
+        <!--  buttons-->
+
+
+
+
+
+    </div>
+
+    <!--modal -->
+    <!--
+
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><span class="
+glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                    Error</h4>
+            </div>
+            <div class="modal-body">
+                <p>Error in data intry</p>
+                <p>Insert data in the following form </p>
+                <p>1,2,3,4,5,6,7,8,9,10,11,12</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+        </div>&lt;!&ndash; /.modal-content &ndash;&gt;
+    </div>&lt;!&ndash; /.modal-dialog &ndash;&gt;
+</div>&lt;!&ndash; /.modal &ndash;&gt;
+-->
+
+
+    <!-- <script src="jquery-3.1.1.js"></script> -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--<script src="js/bootstrap-3.3.7.js"></script>-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
